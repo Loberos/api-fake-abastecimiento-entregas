@@ -1,0 +1,606 @@
+{
+  "ollas": [
+    {
+      "id": "1",
+      "codigo": "OC-2026-0001",
+      "nombre": "Olla Comunitaria Los Ángeles",
+      "sector": "Sector 1",
+      "direccion": "Av. César Vallejo 234, Grupo 8",
+      "responsable": "María Elena Quispe",
+      "contacto": "987654321",
+      "personasAtendidas": 120,
+      "estado": "Activa",
+      "fechaRegistro": "2026-01-10"
+    },
+    {
+      "id": "2",
+      "codigo": "OC-2026-0002",
+      "nombre": "Comedor Popular Virgen del Carmen",
+      "sector": "Sector 3",
+      "direccion": "Jr. Los Pinos 456, Grupo 15",
+      "responsable": "Rosa Mendoza Huamán",
+      "contacto": "912345678",
+      "personasAtendidas": 85,
+      "estado": "Activa",
+      "fechaRegistro": "2026-01-15"
+    },
+    {
+      "id": "3",
+      "codigo": "OC-2026-0003",
+      "nombre": "Olla Solidaria San Martín",
+      "sector": "Sector 2",
+      "direccion": "Calle Las Flores 789, Grupo 22",
+      "responsable": "Juan Carlos Rojas",
+      "contacto": "jrojas@email.com",
+      "personasAtendidas": 200,
+      "estado": "Activa",
+      "fechaRegistro": "2026-01-20"
+    },
+    {
+      "id": "4",
+      "codigo": "OC-2026-0004",
+      "nombre": "Comedor Villa Jardín",
+      "sector": "Sector 5",
+      "direccion": "Av. Revolución 1020, Grupo 4",
+      "responsable": "Carmen Salazar",
+      "contacto": "923456789",
+      "personasAtendidas": 60,
+      "estado": "Suspendida",
+      "fechaRegistro": "2026-02-01"
+    },
+    {
+      "id": "5",
+      "codigo": "OC-2026-0005",
+      "nombre": "Olla Esperanza Viva",
+      "sector": "Sector 4",
+      "direccion": "Pasaje Los Olivos 312, Grupo 11",
+      "responsable": "Ana Lucía Chávez",
+      "contacto": "945612378",
+      "personasAtendidas": 150,
+      "estado": "Activa",
+      "fechaRegistro": "2026-02-05"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "sku": "PR-2026-0001",
+      "nombre": "Arroz Extra",
+      "categoria": "Granos",
+      "unidadMedida": "kg",
+      "stockMinimo": 50,
+      "perecible": false,
+      "activo": true
+    },
+    {
+      "id": "2",
+      "sku": "PR-2026-0002",
+      "nombre": "Lentejas",
+      "categoria": "Granos",
+      "unidadMedida": "kg",
+      "stockMinimo": 30,
+      "perecible": false,
+      "activo": true
+    },
+    {
+      "id": "3",
+      "sku": "PR-2026-0003",
+      "nombre": "Aceite Vegetal",
+      "categoria": "Aceites",
+      "unidadMedida": "litro",
+      "stockMinimo": 20,
+      "perecible": false,
+      "activo": true
+    },
+    {
+      "id": "4",
+      "sku": "PR-2026-0004",
+      "nombre": "Leche Evaporada",
+      "categoria": "Lacteos",
+      "unidadMedida": "unidad",
+      "stockMinimo": 40,
+      "perecible": true,
+      "activo": true
+    },
+    {
+      "id": "5",
+      "sku": "PR-2026-0005",
+      "nombre": "Conserva de Atún",
+      "categoria": "Conservas",
+      "unidadMedida": "unidad",
+      "stockMinimo": 30,
+      "perecible": true,
+      "activo": true
+    },
+    {
+      "id": "6",
+      "sku": "PR-2026-0006",
+      "nombre": "Jabón de Tocador",
+      "categoria": "Higiene",
+      "unidadMedida": "unidad",
+      "stockMinimo": 25,
+      "perecible": false,
+      "activo": true
+    },
+    {
+      "id": "7",
+      "sku": "PR-2026-0007",
+      "nombre": "Fideos Spaghetti",
+      "categoria": "Granos",
+      "unidadMedida": "paquete",
+      "stockMinimo": 40,
+      "perecible": false,
+      "activo": true
+    },
+    {
+      "id": "8",
+      "sku": "PR-2026-0008",
+      "nombre": "Azúcar Blanca",
+      "categoria": "Otros",
+      "unidadMedida": "kg",
+      "stockMinimo": 25,
+      "perecible": false,
+      "activo": true
+    }
+  ],
+  "lotes": [
+    {
+      "productoId": 1,
+      "fechaIngreso": "2026-01-15",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 200,
+      "cantidadDisponible": 120,
+      "proveedor": "Distribuidora Lima Sur",
+      "costoUnitario": 3.5,
+      "estado": "Agotado",
+      "codigoLote": "LT-2026-0001",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "codigoLote": "LT-2026-0002",
+      "productoId": 2,
+      "fechaIngreso": "2026-01-15",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 100,
+      "cantidadDisponible": 70,
+      "proveedor": "Distribuidora Lima Sur",
+      "costoUnitario": 5,
+      "estado": "Disponible"
+    },
+    {
+      "id": "3",
+      "codigoLote": "LT-2026-0003",
+      "productoId": 3,
+      "fechaIngreso": "2026-01-20",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 80,
+      "cantidadDisponible": 55,
+      "proveedor": "Aceites del Pacífico S.A.",
+      "costoUnitario": 8,
+      "estado": "Disponible"
+    },
+    {
+      "id": "4",
+      "codigoLote": "LT-2026-0004",
+      "productoId": 4,
+      "fechaIngreso": "2026-02-01",
+      "fechaVencimiento": "2026-08-01",
+      "cantidadIngresada": 150,
+      "cantidadDisponible": 100,
+      "proveedor": "Gloria S.A.",
+      "costoUnitario": 3.2,
+      "estado": "Disponible"
+    },
+    {
+      "id": "5",
+      "codigoLote": "LT-2026-0005",
+      "productoId": 5,
+      "fechaIngreso": "2026-02-01",
+      "fechaVencimiento": "2026-12-01",
+      "cantidadIngresada": 120,
+      "cantidadDisponible": 90,
+      "proveedor": "Productos Marinos S.A.C.",
+      "costoUnitario": 4.5,
+      "estado": "Disponible"
+    },
+    {
+      "id": "6",
+      "codigoLote": "LT-2026-0006",
+      "productoId": 6,
+      "fechaIngreso": "2026-02-05",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 100,
+      "cantidadDisponible": 80,
+      "proveedor": "Higiene Total E.I.R.L.",
+      "costoUnitario": 2,
+      "estado": "Disponible"
+    },
+    {
+      "id": "7",
+      "codigoLote": "LT-2026-0007",
+      "productoId": 7,
+      "fechaIngreso": "2026-02-10",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 150,
+      "cantidadDisponible": 150,
+      "proveedor": "Distribuidora Lima Sur",
+      "costoUnitario": 2.8,
+      "estado": "Disponible"
+    },
+    {
+      "id": "8",
+      "codigoLote": "LT-2026-0008",
+      "productoId": 8,
+      "fechaIngreso": "2026-02-10",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 100,
+      "cantidadDisponible": 100,
+      "proveedor": "Azucarera del Norte",
+      "costoUnitario": 3,
+      "estado": "Disponible"
+    },
+    {
+      "id": "9",
+      "codigoLote": "LT-2026-0009",
+      "productoId": 1,
+      "fechaIngreso": "2026-02-20",
+      "fechaVencimiento": "",
+      "cantidadIngresada": 150,
+      "cantidadDisponible": 150,
+      "proveedor": "Granos del Sur",
+      "costoUnitario": 3.4,
+      "estado": "Disponible"
+    },
+    {
+      "id": "10",
+      "codigoLote": "LT-2026-0010",
+      "productoId": 4,
+      "fechaIngreso": "2026-02-25",
+      "fechaVencimiento": "2026-05-01",
+      "cantidadIngresada": 60,
+      "cantidadDisponible": 60,
+      "proveedor": "Gloria S.A.",
+      "costoUnitario": 3.3,
+      "estado": "Disponible"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": "1",
+      "codigo": "SOL-2026-0001",
+      "ollaId": 1,
+      "fechaSolicitud": "2026-02-10",
+      "periodo": "2026-02",
+      "prioridad": "Normal",
+      "estado": "Entregada",
+      "fechaLimiteRevision": "2026-02-14",
+      "comentarioSolicitud": "Solicitud mensual de febrero",
+      "comentarioRevision": "",
+      "detalles": [
+        {
+          "productoId": 1,
+          "cantidadSolicitada": 30,
+          "cantidadAprobada": 30,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 3,
+          "cantidadSolicitada": 10,
+          "cantidadAprobada": 10,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 4,
+          "cantidadSolicitada": 20,
+          "cantidadAprobada": 20,
+          "comentarioItem": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "codigo": "SOL-2026-0002",
+      "ollaId": 2,
+      "fechaSolicitud": "2026-02-12",
+      "periodo": "2026-02",
+      "prioridad": "Alta",
+      "estado": "Aprobada",
+      "fechaLimiteRevision": "2026-02-14",
+      "comentarioSolicitud": "Necesitamos insumos urgentes por aumento de familias atendidas",
+      "comentarioRevision": "",
+      "detalles": [
+        {
+          "productoId": 1,
+          "cantidadSolicitada": 25,
+          "cantidadAprobada": 25,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 2,
+          "cantidadSolicitada": 15,
+          "cantidadAprobada": 15,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 5,
+          "cantidadSolicitada": 20,
+          "cantidadAprobada": 15,
+          "comentarioItem": "Stock limitado"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "codigo": "SOL-2026-0003",
+      "ollaId": 3,
+      "fechaSolicitud": "2026-02-15",
+      "periodo": "2026-02",
+      "prioridad": "Urgente",
+      "estado": "Enviada",
+      "fechaLimiteRevision": "2026-02-16",
+      "comentarioSolicitud": "Se agotaron insumos por donación no recibida",
+      "comentarioRevision": "",
+      "detalles": [
+        {
+          "productoId": 1,
+          "cantidadSolicitada": 40,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 7,
+          "cantidadSolicitada": 30,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 8,
+          "cantidadSolicitada": 15,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 3,
+          "cantidadSolicitada": 10,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "codigo": "SOL-2026-0004",
+      "ollaId": 5,
+      "fechaSolicitud": "2026-02-18",
+      "periodo": "2026-02",
+      "prioridad": "Normal",
+      "estado": "Borrador",
+      "fechaLimiteRevision": "2026-02-22",
+      "comentarioSolicitud": "",
+      "comentarioRevision": "",
+      "detalles": [
+        {
+          "productoId": 2,
+          "cantidadSolicitada": 20,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 6,
+          "cantidadSolicitada": 15,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "codigo": "SOL-2026-0005",
+      "ollaId": 1,
+      "fechaSolicitud": "2026-03-01",
+      "periodo": "2026-03",
+      "prioridad": "Normal",
+      "estado": "Enviada",
+      "fechaLimiteRevision": "2026-03-05",
+      "comentarioSolicitud": "Solicitud mensual de marzo",
+      "comentarioRevision": "",
+      "detalles": [
+        {
+          "productoId": 1,
+          "cantidadSolicitada": 35,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 4,
+          "cantidadSolicitada": 25,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        },
+        {
+          "productoId": 7,
+          "cantidadSolicitada": 20,
+          "cantidadAprobada": 0,
+          "comentarioItem": ""
+        }
+      ]
+    }
+  ],
+  "entregas": [
+    {
+      "id": "1",
+      "codigo": "ENT-2026-0001",
+      "solicitudId": 1,
+      "fechaProgramada": "2026-02-15",
+      "fechaDespacho": "2026-02-15",
+      "fechaEntrega": "2026-02-16",
+      "estadoEntrega": "Entregada",
+      "responsableAlmacen": "Carlos Mendoza",
+      "responsableRecepcion": "María Elena Quispe",
+      "comentario": "Entrega completa sin observaciones",
+      "itemsEntregados": [
+        {
+          "productoId": 1,
+          "loteId": 1,
+          "cantidad": 30
+        },
+        {
+          "productoId": 3,
+          "loteId": 3,
+          "cantidad": 10
+        },
+        {
+          "productoId": 4,
+          "loteId": 4,
+          "cantidad": 20
+        }
+      ]
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "1",
+      "productoId": 1,
+      "loteId": 1,
+      "fecha": "2026-01-15",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 200,
+      "referenciaTipo": "Lote",
+      "referenciaId": 1,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "2",
+      "productoId": 2,
+      "loteId": 2,
+      "fecha": "2026-01-15",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 100,
+      "referenciaTipo": "Lote",
+      "referenciaId": 2,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "3",
+      "productoId": 3,
+      "loteId": 3,
+      "fecha": "2026-01-20",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 80,
+      "referenciaTipo": "Lote",
+      "referenciaId": 3,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "4",
+      "productoId": 4,
+      "loteId": 4,
+      "fecha": "2026-02-01",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 150,
+      "referenciaTipo": "Lote",
+      "referenciaId": 4,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "5",
+      "productoId": 5,
+      "loteId": 5,
+      "fecha": "2026-02-01",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 120,
+      "referenciaTipo": "Lote",
+      "referenciaId": 5,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "6",
+      "productoId": 6,
+      "loteId": 6,
+      "fecha": "2026-02-05",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 100,
+      "referenciaTipo": "Lote",
+      "referenciaId": 6,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "7",
+      "productoId": 7,
+      "loteId": 7,
+      "fecha": "2026-02-10",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 150,
+      "referenciaTipo": "Lote",
+      "referenciaId": 7,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "8",
+      "productoId": 8,
+      "loteId": 8,
+      "fecha": "2026-02-10",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 100,
+      "referenciaTipo": "Lote",
+      "referenciaId": 8,
+      "comentario": "Ingreso inicial"
+    },
+    {
+      "id": "9",
+      "productoId": 1,
+      "loteId": 9,
+      "fecha": "2026-02-20",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 150,
+      "referenciaTipo": "Lote",
+      "referenciaId": 9,
+      "comentario": "Reposición"
+    },
+    {
+      "id": "10",
+      "productoId": 4,
+      "loteId": 10,
+      "fecha": "2026-02-25",
+      "tipoMovimiento": "Ingreso",
+      "cantidad": 60,
+      "referenciaTipo": "Lote",
+      "referenciaId": 10,
+      "comentario": "Reposición"
+    },
+    {
+      "id": "11",
+      "productoId": 1,
+      "loteId": 1,
+      "fecha": "2026-02-15",
+      "tipoMovimiento": "Salida",
+      "cantidad": 30,
+      "referenciaTipo": "Entrega",
+      "referenciaId": 1,
+      "comentario": "Despacho SOL-2026-0001"
+    },
+    {
+      "id": "12",
+      "productoId": 3,
+      "loteId": 3,
+      "fecha": "2026-02-15",
+      "tipoMovimiento": "Salida",
+      "cantidad": 10,
+      "referenciaTipo": "Entrega",
+      "referenciaId": 1,
+      "comentario": "Despacho SOL-2026-0001"
+    },
+    {
+      "id": "13",
+      "productoId": 4,
+      "loteId": 4,
+      "fecha": "2026-02-15",
+      "tipoMovimiento": "Salida",
+      "cantidad": 20,
+      "referenciaTipo": "Entrega",
+      "referenciaId": 1,
+      "comentario": "Despacho SOL-2026-0001"
+    }
+  ]
+}
